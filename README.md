@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/plumlab/go-chi-sample.svg?branch=master)](https://travis-ci.org/plumlab/go-chi-sample)
+[![Build Status](https://travis-ci.org/plumlab/go-chi-sample.svg?branch=master)](https://travis-ci.org/plumlab/go-chi-sample) [![Go Report Card](https://goreportcard.com/badge/github.com/plumlab/go-chi-sample)](https://goreportcard.com/report/github.com/plumlab/go-chi-sample)
 
 # go-chi-sample
 
