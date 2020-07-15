@@ -3,3 +3,12 @@
 # go-chi-sample
 
 sample project using go-chi framework
+
+# how to
+
+## run application
+
+```
+docker-compose -f ./build/package/docker-compose.yml --project-directory . up
+```
+

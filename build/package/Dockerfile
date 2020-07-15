@@ -10,10 +10,10 @@ RUN curl -o waitforit -sSL https://github.com/maxcnunes/waitforit/releases/downl
 
 ADD . /src
 WORKDIR /src
-RUN go install ./cmd
+RUN go install ./cmd/smart
 
 FROM alpine:3.9
 RUN apk --no-cache add ca-certificates
 COPY --from=build /src/db /db
 COPY --from=build /go/bin/* /bin/
-CMD ["/bin/go-chi-sample"]
+CMD ["/bin/smart"]
