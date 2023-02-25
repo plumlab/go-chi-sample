@@ -18,5 +18,6 @@ require (
 	github.com/sendgrid/sendgrid-go v3.6.0+incompatible
 	github.com/sony/gobreaker v0.4.1
 	github.com/spf13/viper v1.7.0
-	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
+	github.com/stretchr/testify v1.3.0
+	golang.org/x/crypto v0.1.0
 )
