@@ -19,5 +19,5 @@ require (
 	github.com/sony/gobreaker v0.4.1
 	github.com/spf13/viper v1.7.0
 	github.com/stretchr/testify v1.3.0
-	golang.org/x/crypto v0.1.0
+	golang.org/x/crypto v0.17.0
 )
